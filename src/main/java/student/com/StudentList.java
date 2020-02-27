@@ -1,3 +1,10 @@
+/* Daniel Fitzgerald 27/02/2020
+ * Group A
+ * Lab Eam
+ *
+ * StudentList class for creating and modifying and List of student objects
+ * */
+
 package student.com;
 
 import java.util.ArrayList;
@@ -14,6 +21,7 @@ public class StudentList {
         studentList.add(student);
     }
 
+    // Search the list of students for an entry using a student name
     public Student searchStudent(String studentName) {
         for (Student student : studentList) {
             if (student.getName().equalsIgnoreCase(studentName)) {

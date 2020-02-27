@@ -1,3 +1,9 @@
+/* Daniel Fitzgerald 27/02/2020
+* Group A
+* Lab Eam
+*
+* Student class for creating student objects with the fields: name and email
+* */
 package student.com;
 
 public class Student {
