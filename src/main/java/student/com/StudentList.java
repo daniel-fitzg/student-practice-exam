@@ -13,8 +13,6 @@ import java.util.List;
 public class StudentList {
     private List<Student> studentList;
 
-    
-
     public StudentList() {
         this.studentList = new ArrayList<Student>();
     }
